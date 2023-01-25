@@ -15,13 +15,13 @@ const App = () => {
     <div className="App">
       <button id="btn1" onClick={handleClick}>
         {/* assign value for button 1 */}
-        {on ? "on" : "off"}
+        {on ? "ON" : "OFF"}
       </button>
       <br />
       <br />
       <button id="btn2" onClick={handleClick}>
         {/* assign value for button 2 */}
-        {off ? "off" : "on"}
+        {off ? "OFF" : "ON"}
       </button>
     </div>
   );
